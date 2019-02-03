@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TaSM Image\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\TaSM Image\Downloads\cmder\bin;C:\Users\TaSM Image\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\TaSM Image\Downloads\cmder\vendor\conemu-maximus5;C:\Users\TaSM Image\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Heroku\bin;C:\Users\TaSM Image\AppData\Roaming\npm;C:\Users\TaSM Image\AppData\Local\atom\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\TaSM Image\Downloads\cmder\
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.2
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "windchilltest",
+    "version": "1.0.0",
+    "description": "Test module for Windchill captivate tutorials",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mvt3641/Windchilltest.git"
+    },
+    "author": "Matt Thompson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mvt3641/Windchilltest/issues"
+    },
+    "homepage": "https://github.com/mvt3641/Windchilltest#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\Windows\system32\cmd.exe
+  Arguments: /d /s /c node server.js
+  Directory: C:\Users\TaSM Image\Desktop\Windchilltest
+  Output:
+  
+      at ProcessTermError.Error (native)
+      at ProcessTermError.MessageError (C:\Users\TaSM Image\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\TaSM Image\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\TaSM Image\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:106:13)
+      at ChildProcess.emit (events.js:191:7)
+      at maybeClose (internal/child_process.js:891:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
