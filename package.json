@@ -2,8 +2,9 @@
   "name": "windchilltest",
   "version": "1.0.0",
   "description": "Test module for Windchill captivate tutorials",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "prestart":"start mongod && sleep 3",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mvt3641/Windchilltest/issues"
   },
-  "homepage": "https://github.com/mvt3641/Windchilltest#readme"
+  "homepage": "https://github.com/mvt3641/Windchilltest#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
 }

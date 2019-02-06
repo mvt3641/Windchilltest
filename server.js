@@ -32,17 +32,23 @@ app.use(apiRoutes);
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res)=>{
-res.sendFile(path.join(__dirname, "/public/index.html"));
+res.sendFile(path.join(__dirname, "/public/main.html"));
 });
 
-app.get('/upload',function(req, res){
-  res.sendFile(path.join(__dirname, "/public/uploadpage.html"));
+app.get('/index.html', (req, res)=>{
+res.sendFile(path.join(__dirname, "/index.html"));
 });
-var template = require('./db/template.js');
-app.get('/template', template.get);
-// upload  to mongodb
-var upload = require('./db/upload.js');
-app.post('/up', upload.post);
+
+// app.get('/upload',function(req, res){
+//   res.sendFile(path.join(__dirname, "/public/uploadpage.html"));
+// });
+
+
+// var template = require('./db/template.js');
+// app.get('/template', template.get);
+// // upload  to mongodb
+// // var upload = require('./db/upload.js');
+// app.post('/up', upload.post);
 
 // Syncing our sequelize models and then starting our express app
   app.listen(PORT, function() {
