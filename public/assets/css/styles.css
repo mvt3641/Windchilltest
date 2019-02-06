@@ -1,0 +1,21 @@
+body{
+  background-image: url("PDA_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_title{
+  text-align: center;
+  border: 3px blue;
+  color: grey;
+}
+
+#module-window{
+position: relative;
+display: block;
+margin-left: auto;
+margin-right:auto;
+height: 600px;
+width: 600px;
+}
