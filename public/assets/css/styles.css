@@ -3,7 +3,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .home_title{
@@ -17,8 +17,8 @@ position: relative;
 display: block;
 margin-left: auto;
 margin-right:auto;
-height: 600px;
-width: 600px;
+height:600px;
+width: 1150px;
 }
 
 p{
