@@ -4,14 +4,14 @@
   "description": "Test module for Windchill captivate tutorials",
   "main": "server.js",
   "scripts": {
-
+    "start":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mvt3641/Windchilltest.git"
   },
-  "author": "Matt Thompson",
+  "author": "Matthew Thompson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mvt3641/Windchilltest/issues"
