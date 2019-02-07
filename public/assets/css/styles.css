@@ -1,0 +1,60 @@
+body{
+  background-image: url("PDA_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_title{
+  font-size: 40px;
+  text-align: center;
+  color: lightgrey;
+}
+
+#module-window{
+position: relative;
+display: block;
+margin-left: auto;
+margin-right:auto;
+height: 600px;
+width: 600px;
+}
+
+p{
+ color:lightgrey;
+}
+
+#card_div{
+  position: relative;
+  top: 100px;
+  width:1000px;
+  height:450px;
+}
+
+.card{
+  position: relative;
+  height:300px;
+}
+
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+  display: flex;
+}
+.card-body{
+background-color: rgb(26,53,74,0.7);
+}
+
+.aboutdiv{
+  float:left;
+}
+
+@media (hover: hover) {
+  .card-body:hover {
+    background: rgb(26,53,74);
+  }
+}
