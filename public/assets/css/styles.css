@@ -1,3 +1,11 @@
+nav{
+  font-size: ;
+  font-style: ;
+  font-weight: ;
+  font-family:"Work Sans", sans-serif;
+}
+
+
 body{
   background-image: url("PDA_backgroundlgt.jpg");
   background-position: center;
@@ -6,10 +14,19 @@ body{
 
 }
 
-.home_title{
+h1.home_title{
+
   font-size: 40px;
+  font-weight:bolder;
+  /* text-align: center; */
+  color: dimgrey;
+}
+
+.module_title{
+  font-size: 40px;
+  font-weight:bolder;
   text-align: center;
-  color: lightgrey;
+  color: dimgrey;
 }
 
 #module-window{
@@ -53,6 +70,39 @@ background-color: rgb(26,53,74,0.7);
 .aboutdiv{
   float:left;
 }
+
+/* .content_div{
+  float: left;
+  width: 500px;
+  height: 500px;
+} */
+
+.card{
+  border: 3px #fff;
+  background-color: transparent;
+  perspective: 1000px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0;
+}
+
+.card-title{
+color: #fff;
+}
+
+.container_content{
+  margin: 20px;
+  float: left;
+  border: 3px #fff;
+  background-color: rgb(26,53,74,0.7);
+  perspective: 1000px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0;
+  display: inline-block;
+}
+
+
 
 @media (hover: hover) {
   .card-body:hover {
