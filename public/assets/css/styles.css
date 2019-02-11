@@ -1,12 +1,20 @@
-nav{
-  font-size: ;
-  font-style: ;
-  font-weight: ;
+.nav_fixed{
   font-family:"Work Sans", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 25;
 
 }
 
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #212529;
+   color: white;
+   text-align: center;
+}
 
 body{
   background-image: url("PDA_backgroundlgt.jpg");
