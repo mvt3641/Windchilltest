@@ -20,14 +20,14 @@ npm manifest:
     "description": "Test module for Windchill captivate tutorials",
     "main": "server.js",
     "scripts": {
-      "prestart":"start mongod && sleep 3",
+      "start":"nodemon server.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
       "url": "git+https://github.com/mvt3641/Windchilltest.git"
     },
-    "author": "Matt Thompson",
+    "author": "Matthew Thompson",
     "license": "ISC",
     "bugs": {
       "url": "https://github.com/mvt3641/Windchilltest/issues"
@@ -52,7 +52,7 @@ Trace:
   Error: Command failed.
   Exit code: 3221225786
   Command: C:\Windows\system32\cmd.exe
-  Arguments: /d /s /c node server.js
+  Arguments: /d /s /c nodemon server.js
   Directory: C:\Users\TaSM Image\Desktop\Windchilltest
   Output:
   
