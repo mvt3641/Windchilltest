@@ -35,6 +35,10 @@ app.get('/main', (req, res)=>{
 res.sendFile(path.join(__dirname, "/public/main.html"));
 });
 
+app.get('/searching', (req, res)=>{
+res.sendFile(path.join(__dirname, "/public/searching.html"));
+});
+
 app.get('/', (req, res)=>{
 res.sendFile(path.join(__dirname, "/public/index.html"));
 });
