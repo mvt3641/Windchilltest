@@ -10,11 +10,15 @@ var path = require("path");
 var apiRoutes = require('./controllers/api');
 var logger = require("morgan");
 var fileUpload =require('express-fileupload');
+var cors = require("cors");
 
 
 // Sets up the Express App
 // =============================================================
 var app = express();
+
+//Enabling cross origin resources
+app.use(cors());
 
 // Initailize file upload
 app.use(fileUpload());
