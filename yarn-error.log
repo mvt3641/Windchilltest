@@ -20,7 +20,7 @@ npm manifest:
     "description": "Test module for Windchill captivate tutorials",
     "main": "server.js",
     "scripts": {
-      "start":"nodemon server.js",
+      "start": "nodemon server.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -34,6 +34,7 @@ npm manifest:
     },
     "homepage": "https://github.com/mvt3641/Windchilltest#readme",
     "dependencies": {
+      "cors": "^2.8.5",
       "express": "^4.16.4",
       "express-fileupload": "^1.1.1-alpha.1",
       "mongoose": "^5.4.9",
