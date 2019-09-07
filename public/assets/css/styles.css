@@ -78,6 +78,7 @@ p{
   display: flex;
 }
 .card-body{
+background-color: #496174;
 background-color: rgb(26,53,74,0.7);
 }
 
